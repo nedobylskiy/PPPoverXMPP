@@ -5,7 +5,7 @@
 */
 
 var login = 'ethernet@jabber.ru';
-var password = 'sl0nen0k';
+var password = '';
 
 var gatewayContact = 'ethernet@xmpp.ru';
 
