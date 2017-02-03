@@ -23,13 +23,13 @@ var PPPoverXMPP = require('pppoverxmpp')({
 
 **gatewayContact** - authorized user from contact list. Another instance of PPP over XMPP should be connected to this account.
 
-**idAdress** - adress of current device in PPP network
+**id** - adress of current device in PPP network
 
-**gatewayIp** - usually the address of another device
+**gateway** - usually the address of another device
 
-**networkMask** - IPv4 subnetting reference
+**mask** - IPv4 subnetting reference (networking mask)
 
-**interfaceId** - name of network interface created in system
+**interface** - name of network interface created in system
 
 After configuring run application from superuser. 
 
@@ -37,7 +37,7 @@ Run another instance of application on gatewayContact with same networkMask and 
 
 ## Additional features
 
-Tou can have access to node-tuntap and xmpp-client instances by PPPoverXMPP.tuntap and PPPoverXMPP.client properties.
+Tou can have access to node-tuntap and xmpp-client instances by **PPPoverXMPP.tuntap** and **PPPoverXMPP.client** properties.
 
 ##Troubles
 

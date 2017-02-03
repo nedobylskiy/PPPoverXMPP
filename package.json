@@ -19,7 +19,7 @@
     "jabber"
   ],
   "author": "Andrey Nedobylsky",
-  "license": "ISC",
+  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/lailune/PPPoverXMPP/issues"
   },
