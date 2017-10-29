@@ -1,6 +1,9 @@
 # PPP over XMPP (jabber)
 It creates a TAP interface and allows you to use the XMPP (jabber) as PPP tunnel.
 
+![npm](https://img.shields.io/npm/dt/pppoverxmpp.svg)
+
+
 ## Usage
 
 The project is in the stage of "proof-of-concept". Therefore, the configuration is done by editing the application main file. Sorry for this.
